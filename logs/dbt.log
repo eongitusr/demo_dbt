@@ -1,0 +1,37 @@
+
+
+============================== 2022-02-20 23:11:06.716167 | cc20d901-18ed-4117-82b4-7800c44937e1 ==============================
+23:11:06.716167 [info ] [MainThread]: Running with dbt=1.0.1
+23:11:06.718171 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='C:\\Users\\dell\\.dbt', project_dir=None, project_name=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+23:11:06.719171 [debug] [MainThread]: Tracking: tracking
+23:11:06.719171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000130BB3DADC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000130BB3DAD00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000130BB3DABE0>]}
+23:11:19.919948 [debug] [MainThread]: Starter project path: c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\dbt\include\starter_project
+23:31:50.972517 [info ] [MainThread]: Profile demo_dbt written to C:\Users\dell\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+23:31:50.980316 [info ] [MainThread]: 
+Your new dbt project "demo_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+23:31:50.992324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000130BB3E37C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000130BB3DA0A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000130BB3DA160>]}
+
+
+============================== 2022-02-21 00:17:59.929469 | dc9f8b8d-fe43-4cf2-a142-fbab232192a9 ==============================
+00:17:59.929469 [info ] [MainThread]: Running with dbt=1.0.1
+00:17:59.930465 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.debug.DebugTask'>, config_dir=False, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='C:\\Users\\dell\\.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='debug', write_json=None)
+00:17:59.930465 [debug] [MainThread]: Tracking: tracking
+00:17:59.931464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AC91FAE20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AC91FAD60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023AC91FAC40>]}
+00:18:01.258632 [debug] [MainThread]: Executing "git --help"
+00:18:01.322178 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+00:18:01.323177 [debug] [MainThread]: STDERR: "b''"
+00:18:01.325180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACA6673D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACA667940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACA667850>]}
